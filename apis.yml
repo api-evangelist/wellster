@@ -1,9 +1,26 @@
 aid: wellster
 name: Wellster
-description: 'Wellster is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare; consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Wellster Healthtech Group is a German digital healthcare company founded in Munich in 2018
+  by Dr. Manuel Nothelfer and Nico Hribernik. It operates a digital health ecosystem that integrates a
+  diverse range of direct-to-patient medical brands across Europe, combining synchronous and asynchronous
+  telemedicine with value-based, evidence-driven care. Wellster emphasizes German-based medical supervision,
+  data stored on German servers, and treatments aligned with established clinical standards, acting as a
+  structured filter and patient-routing layer for the healthcare system. It is backed by HV Capital and
+  was added to the API Evangelist network as a portfolio lead. Wellster does not publish a public API,
+  developer portal, or API documentation as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/wellster/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66b093766f551680a4345ee5/6888aa2e943d0ab5e9ec6647_Logo-Made-in-germany-desk.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +29,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Healthcare; Consumer
+- Healthcare
+- Consumer
+- Telemedicine
+- Digital Health
+- Telehealth
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/wellster-domain-security.yml
+- type: Website
+  url: https://www.wellsterhealth.com/
+- type: Blog
+  url: https://www.wellsterhealth.com/newsroom
+- type: PrivacyPolicy
+  url: https://www.wellsterhealth.com/datenschutz
+- type: TermsOfService
+  url: https://www.wellsterhealth.com/impressum
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
